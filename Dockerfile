@@ -1,5 +1,5 @@
 # qctool v2.2.0 and bgen v1.1.7
-FROM docker pull gcc:11.2.0-bullseye
+FROM gcc:11.2.0-bullseye
 RUN apt-get update && apt-get install -y --no-install-recommends zlib1g-dev liblapack-dev && \
   mkdir qctool && \
   wget "https://enkre.net/cgi-bin/code/qctool/tarball/86639c1ad4/qctool-86639c1ad4.tar.gz" && \
